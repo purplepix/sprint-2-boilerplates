@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900" rel="stylesheet"> 
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+  <title>Freelancer</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <p class="font-title title-nav">START BOOTSTRAP</p>
+      <ul class="nav-menu">
+        <li class="font-title menu-item">PORTFOLIO</li>
+        <li class="font-title menu-item">ABOUT</li>
+        <li class="font-title menu-item">CONTACT</li>
+      </ul>
+    </nav>
+  </header>
+  <section class="banner">
+    <img src="assets/images/profile.png">
+    <h1 class="font-title title-banner">START BOOTSTRAP</h1>
+    <div class="star-bar">
+      <hr class="bar white-bar">
+      <i class="star-icon star-icon-white fas fa-star"></i>
+    </div>
+    <p class="banner-text">Web Developer - Graphic Artist - User Experience Designer</p>
+  </section>
+  <section class="portfolio">
+    <h2 class="font-title title-portfolio">PORTFOLIO</h2>
+    <div class="star-bar">
+      <hr class="bar blue-bar">
+      <i class="star-icon star-icon-blue fas fa-star"></i>
+    </div>
+    <div class="portfolio-images">
+      <div class="portfolio-images-row">
+        <img class="portfolio-image" src="assets/images/portfolio/cabin.png" alt="ilustração cabana"></img>
+        <img class="portfolio-image" src="assets/images/portfolio/cake.png" alt="ilustração bolo"></img>
+        <img class="portfolio-image" src="assets/images/portfolio/circus.png" alt="ilustração circo"></img>
+      </div>
+      <div class="portfolio-images-row">
+        <img class="portfolio-image" src="assets/images/portfolio/game.png" alt="ilustração controle"></img>
+        <img class="portfolio-image" src="assets/images/portfolio/safe.png" alt="ilustração cofre"></img>
+        <img class="portfolio-image" src="assets/images/portfolio/submarine.png" alt="ilustração submarino"></img>
+      </div>
+    </div>
+    <div id="myModal" class="modal">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="imagenMostrar">
+      <div id="caption" class="caption-style"></div>
+    </div>
+  </section>
+  <section class="about">
+    <h2 class="font-title title-about">ABOUT</h2>
+    <div class="star-bar">
+      <hr class="bar white-bar">
+      <i class="star-icon star-icon-white fas fa-star"></i>
+    </div>
+    <div class="about-text">
+      <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+      <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+    </div> 
+    <div class="download-btn">
+      <p><i class="fas fa-download"></i> Download Theme</p>
+    </div>
+  </section>
+  <section class="contact">
+    <h2 class="font-title title-contact">CONTACT ME</h2>
+    <div class="star-bar">
+      <hr class="bar blue-bar">
+      <i class="star-icon star-icon-blue fas fa-star"></i>
+    </div>
+    <form>
+      <fieldset class="fieldset">
+        <input type="text" name="name" placeholder="Name">
+        <input type="email" name="email" placeholder="Email Address">
+        <input type="text" name="phone" placeholder="Phone Number">
+      </fieldset>
+      <fieldset class="fieldset">  
+        <textarea rows="6" type="text" name="message" placeholder="Message"></textarea>
+        <input class="form-btn" type="button" name="submit" value="Send">
+      </fieldset>
+    </form>
+  </section>
+  <footer>
+    <div class="footer-info">
+      <div>
+        <p class="font-title footer-subitem">LOCATION</p>
+        <p class="footer-text">3481 Melrose Place</p>
+        <p class="footer-text">Beverly Hills, CA 90210</p>
+      </div>
+      <div>
+        <p class="font-title footer-subitem">AROUND THE WEB</p>
+        <div class="footer-icons">
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-google-plus-g"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-linkedin-in"></i>
+          <i class="fas fa-globe"></i>
+        </div>
+      </div>
+      <div>
+        <p class="font-title footer-subitem">ABOUT FREELANCER</p>
+        <p class="footer-text">Freelance is a free to use, open source Bootstrap theme created by <span class="green-text">Start Bootstrap</span>.</p>
+      </div>
+    </div>
+    <p class="copyright">Copyright © Your Website 2018</p>
+  </footer>
+  <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

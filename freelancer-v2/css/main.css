@@ -1,0 +1,274 @@
+/*----PROPRIEDADES GERAIS----*/
+
+body{
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  max-height: 100vh;
+  background-color: #18bc9c; 
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.font-title{
+ font-family: 'Montserrat', sans-serif;  
+ font-weight:900;
+ color: white;
+}
+
+.star-bar{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+}
+
+.star-icon{
+  font-size: 27px;
+  color: white;  
+  background: #18bc9c;
+  position: absolute;
+  padding: 0 5px;
+}
+
+.bar{
+  width: 18%;
+  border: none;
+  height: 5px;
+  background-color: white;
+
+}
+
+/*---- FIM PROPS GERAIS ----*/
+
+header, footer{
+  background-color: #2c3e50;
+}
+
+.title-nav{
+  letter-spacing: -0.5px;
+}
+
+nav{
+  font-size: 24.8px;
+  width: 78%;
+  height: 80px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;  
+}
+
+.nav-menu {
+  width: 27%;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;   
+}
+
+.menu-item{
+  list-style: none;
+  font-size: 15px; 
+  margin: auto;
+}
+
+.banner{
+  height: auto;
+}
+
+  .banner img {
+    width: 18%;
+    padding-top: 100px;
+    display: block;
+    margin: auto;
+  }
+
+.title-banner{
+  font-size: 65px;
+  margin: 27px 28px 27px 26px;
+}
+
+.banner-text{
+  font: bold 24px 'Lato';
+  margin: 50px 0 100px 0;
+  padding-top: 12px;
+}
+
+.portfolio{
+  background-color: white;
+  height: auto;
+/*   overflow: hidden; */
+}
+
+.title-portfolio{
+  color: #2c3e50;
+  font-size: 44px;
+  letter-spacing: -2px;
+  margin: 20px 0 9px 0;
+  padding-top: 88px;
+}
+
+.star-icon-blue{
+  color: #2c3e50;  
+  background: white;
+}
+
+.blue-bar{
+  background-color: #2c3e50;
+}
+
+.portfolio-images{
+  width: 80%;
+  padding: 100px;
+  margin: 7px auto 0 auto;
+}
+
+.portfolio-images-row{
+  display: flex;
+}
+
+  .portfolio-images-row img{
+    padding: 12px;
+  }
+
+.title-about{
+  font-size: 44px;
+  letter-spacing: -2px;
+  padding-top: 53px;
+  margin-bottom: 8px;
+}
+
+.about-text{
+  display: flex;
+  width: 51%;
+  margin: 50px auto;
+}
+
+  .about-text p{
+    text-align: left;
+    font: bold 18px 'Lato';
+    line-height: 27px;
+    letter-spacing: -0.5px;
+    padding: 10px;
+  }
+
+.download-btn{
+  width: 15%;
+  height: 40px;
+  border: 2px solid white;
+  border-radius: 5px;
+  margin: 11px auto;
+}
+
+  .download-btn p{
+    font-size: 18px;
+    margin: 10px;
+  }
+
+.contact{
+  background-color: white;
+  height: 800px;
+  margin-top: 90px; 
+}
+
+.title-contact{
+  color: #2c3e50;
+  font-size: 44px;
+  letter-spacing: -2px;
+  margin: 20px 0 8px 0;
+  padding-top: 88px;
+}
+
+
+.fieldset{
+  width: 51.5%;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  margin: 9px auto 0 auto;
+  padding-top: 10px;
+}
+
+input{ 
+  font-size: 21px;
+  color: #212529;
+  border: none;
+  border-bottom: 2px solid rgba(0,0,0,0.3);
+  padding: 29px 0;
+}
+
+textarea{
+  font-size: 22px;
+  color: #212529;  
+  font-family: 'Lato', sans-serif;
+  width: 100%;
+  display: block;
+  border: none;
+  border-bottom: 2px solid rgba(0,0,0,0.3);
+  margin: 11px auto;
+  position: relative;
+}
+
+.form-btn{
+  font: inherit;
+  color: white;
+  font-size: 17px;
+  background: #18bc9c;
+  width: 10%;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+footer{
+  padding-top: 1px;
+}
+
+.footer-info{
+  width: 80%;
+  display: flex;
+  margin: 18px auto 0 auto;
+}
+
+  .footer-info div {
+    flex: 1;
+  }
+
+.footer-subitem{
+  font-size: 24px;
+}
+
+.footer-text{
+  font: bold 17px 'Lato';
+  line-height: 27px;
+  margin: 0;
+  padding: 0 10px 0 10px;
+}
+
+.footer-icons{
+  width: 79%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+}
+
+  .footer-icons i{
+    font-size: 18px;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin-top: 12px;
+    padding: 12px;
+  }
+
+.green-text{
+  color: #18bc9c; 
+}
+
+.copyright{
+  font-size: 15px;  
+  letter-spacing: -0.3px;
+  margin-top: 84px;
+  padding-bottom: 30px;
+}
