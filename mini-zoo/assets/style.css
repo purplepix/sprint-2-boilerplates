@@ -1,0 +1,53 @@
+body{
+	box-sizing: border-box;
+	width: 100%;
+	font-size: 16px;
+}
+
+h1{
+	font: 3em 'Wendy One', sans-serif;
+	color: blue;
+	text-align: center;
+}
+
+.drop-menu{
+	color: white;
+	font: 1em bold;
+  display: block;
+	margin: auto;
+	background: lightblue;
+	padding: 5px;
+	border: 1px solid blue;
+}
+
+.drop-item{
+	background: lightblue;
+	color: pink;
+}
+
+.thumbs-section{
+	margin: 20px;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+}
+
+.thumbs-item{
+	padding: 10px;
+}
+
+.sepia{
+	  filter: sepia(1);
+}
+
+.grayscale{
+	filter: grayscale(1);
+}
+
+.invert{
+	filter: invert(1);
+}
+
+.no-filter{
+	filter: none;
+}
